@@ -232,6 +232,7 @@ export default function Game() {
   const goFullScreen = () => {
     containerRef.current?.requestFullscreen();
   };
+  // empty-comment
 
   return (
     <div ref={containerRef} style={{ height: "100vh", overflow: "hidden" }}>
